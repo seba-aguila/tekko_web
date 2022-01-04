@@ -13,28 +13,28 @@ import {
 } from "./NavbarElements";
 
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to='/'>Tekko</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="descubrenos">Descubrenos</NavLinks>
+              <NavLinks to='descubrenos'>Descubrenos</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="temas">Temas a Tratar</NavLinks>
+              <NavLinks to='temas'>Temas a Tratar</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="equipo">Equipo</NavLinks>
+              <NavLinks to='equipo'>Equipo</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/contacto">Contacto</NavBtnLink>
+            <NavBtnLink to='/contacto'>Contacto</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

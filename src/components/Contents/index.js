@@ -1,5 +1,16 @@
 import React from 'react'
-import {ContentsContainer, ContentsH1, ContentsWrapper, ContentsCard, ContentsIcon, ContentsH2, ContentsP} from './ContentsElements'
+import Icon1 from '../../images/undraw_code_thinking_re_gka2.svg'
+import Icon2 from '../../images/undraw_stars_re_6je7.svg'
+import Icon3 from '../../images/undraw_to_the_stars_qhyy.svg'
+import {
+  ContentsContainer,
+  ContentsH1,
+  ContentsWrapper,
+  ContentsCard,
+  ContentsIcon,
+  ContentsH2,
+  ContentsP
+} from './ContentsElements'
 
 const Contents = () => {
   return (
@@ -21,7 +32,7 @@ const Contents = () => {
           </ContentsP>
         </ContentsCard>
         <ContentsCard>
-          <ContentsIcon src={Icon2}/>
+          <ContentsIcon src={Icon3}/>
           <ContentsH2>Once</ContentsH2>
           <ContentsP>
             Chupalo Entonce'

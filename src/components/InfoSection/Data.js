@@ -9,7 +9,7 @@ export const homeObjOne = {
   topLine: 'Descúbrenos',
   headline: '¿Qué es Tekko?',
   description: 'Tekko fue fundada el año 2019 por estudiantes de la Facultad de Ingeniería UdeC. Su objetivo es ser un conversatorio aplicado de herramientas, técnicas y conocimientos que deberán poner en marcha los estudiantes cuando entren al mundo laboral.',
-  buttonLabel: 'Dale tu corte...',
+  buttonLabel: 'Contenidos',
   imgStart: false,
   img: acercaDe,
   alt: 'Acerca de',

@@ -1,6 +1,7 @@
 import acercaDe from '../../images/programando.svg'
 import profe from '../../images/profe.png'
 
+
 export const homeObjOne = {
   id: 'descubrenos',
   lightBg: true,
@@ -18,6 +19,7 @@ export const homeObjOne = {
   darkText: true
 };
 
+
 export const homeObjTwo = {
   id: 'equipo',
   lightBg: true,
@@ -34,3 +36,4 @@ export const homeObjTwo = {
   primary: false,
   darkText: true
 };
+

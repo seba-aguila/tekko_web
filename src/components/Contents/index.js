@@ -1,5 +1,5 @@
 import React from 'react'
-import empresa from '../../images/empresa.svg'
+import empresa from '../../images/business.svg'
 import desarrolloWeb from '../../images/html.svg'
 import finanzas from '../../images/finanzas_personales.svg'
 import curriculum from '../../images/interview.svg'

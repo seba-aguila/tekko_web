@@ -28,7 +28,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Taller Tekko</HeroH1>
         <HeroP>
-          Informática en la empresa
+          Informática en la Empresa
         </HeroP>
         <HeroBtnWrapper>
           <Button to="descubrenos" 

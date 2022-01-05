@@ -1,7 +1,10 @@
 import React from 'react'
-import Icon1 from '../../images/undraw_code_thinking_re_gka2.svg'
-import Icon2 from '../../images/undraw_stars_re_6je7.svg'
-import Icon3 from '../../images/undraw_to_the_stars_qhyy.svg'
+import empresa from '../../images/empresa.svg'
+import desarrolloWeb from '../../images/html.svg'
+import finanzas from '../../images/finanzas_personales.svg'
+import curriculum from '../../images/interview.svg'
+import charlas from '../../images/charlas1.svg'
+import tiempo from '../../images/tiempo.svg'
 import {
   ContentsContainer,
   ContentsH1,
@@ -18,24 +21,45 @@ const Contents = () => {
       <ContentsH1>Temas a tratar</ContentsH1>
       <ContentsWrapper>
         <ContentsCard>
-          <ContentsIcon src={Icon1}/>
-          <ContentsH2>Finanzas</ContentsH2>
+          <ContentsIcon src={empresa}/>
+          <ContentsH2>Áreas de una Empresa</ContentsH2>
           <ContentsP>
-            A mi no me gusta cuando tu te enojai'
+            Ventas, organización y programación en una empresa de desarrollo de software.
           </ContentsP>
         </ContentsCard>
         <ContentsCard>
-          <ContentsIcon src={Icon2}/>
-          <ContentsH2>NGMI</ContentsH2>
+          <ContentsIcon src={desarrolloWeb}/>
+          <ContentsH2>Herramientas<br />de Desarrollo</ContentsH2>
           <ContentsP>
-            Pero a mi me encanta cuando tu te mojai'
+            Git (Bitbucket), Jira, Slack, Servidores, Laravel, entre otras.
           </ContentsP>
         </ContentsCard>
         <ContentsCard>
-          <ContentsIcon src={Icon3}/>
-          <ContentsH2>Once</ContentsH2>
+          <ContentsIcon src={finanzas}/>
+          <ContentsH2>Finanzas Personales</ContentsH2>
           <ContentsP>
-            Chupalo Entonce'
+            <br />Importancia de tener cuenta corriente, de ahorrar e invertir.
+          </ContentsP>
+        </ContentsCard>
+        <ContentsCard>
+          <ContentsIcon src={curriculum}/>
+          <ContentsH2>Elaboración Curriculum</ContentsH2>
+          <ContentsP>
+            Estructura y elaboración óptima de tu curriculum laboral.
+          </ContentsP>
+        </ContentsCard>
+        <ContentsCard>
+          <ContentsIcon src={charlas}/>
+          <ContentsH2>Charlas</ContentsH2>
+          <ContentsP>
+            Charlas acerca de diferentes áreas de interés: entrevistas, videojuegos, etc.
+          </ContentsP>
+        </ContentsCard>
+        <ContentsCard>
+          <ContentsIcon src={tiempo}/>
+          <ContentsH2>Manejo de Tiempo</ContentsH2>
+          <ContentsP>
+            Administración del tiempo personal: Google Calendar, Trello, etc.
           </ContentsP>
         </ContentsCard>
       </ContentsWrapper>

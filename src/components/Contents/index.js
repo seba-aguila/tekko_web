@@ -14,21 +14,21 @@ import {
 
 const Contents = () => {
   return (
-    <ContentsContainer id="temas">
+    <ContentsContainer id="contenidos">
       <ContentsH1>Temas a tratar</ContentsH1>
       <ContentsWrapper>
         <ContentsCard>
           <ContentsIcon src={Icon1}/>
           <ContentsH2>Finanzas</ContentsH2>
           <ContentsP>
-            A mi no me gusta cuando tu te enojai 
+            A mi no me gusta cuando tu te enojai'
           </ContentsP>
         </ContentsCard>
         <ContentsCard>
           <ContentsIcon src={Icon2}/>
           <ContentsH2>NGMI</ContentsH2>
           <ContentsP>
-            LOLOLOLO 
+            Pero a mi me encanta cuando tu te mojai'
           </ContentsP>
         </ContentsCard>
         <ContentsCard>

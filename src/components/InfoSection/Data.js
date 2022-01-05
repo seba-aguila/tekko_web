@@ -2,9 +2,9 @@ import imagen from '../../images/undraw_creative_thinking_b-3-bc.svg'
 
 export const homeObjOne = {
   id: 'descubrenos',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'de que va esta weá',
   headline: 'sin plantilla viejito',
   description: 'Taller tekko es la raja',
@@ -18,7 +18,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: 'temas',
+  id: 'equipo',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -35,7 +35,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: 'equipo',
+  id: 'lolo',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,

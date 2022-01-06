@@ -10,7 +10,8 @@ import {
   LeftArrow,
   RightArrow,
   Slide,
-  Image
+  Image,
+  Img
 } from './CarouselElements';
 
 const Carousel = ({ slides }) => {
@@ -46,11 +47,11 @@ const Carousel = ({ slides }) => {
               key={index}
             >
               {index === current && (
-                <div>
-                  <Image src={slide.image} alt='retrato' />
+                <>
+                  <Img><Image src={slide.image} alt='retrato'/></Img>
                   <CarouselH2>{slide.name}</CarouselH2>
                   <CarouselP>{slide.text}</CarouselP>
-                </div>
+                </>
               )}
             </Slide>
           );

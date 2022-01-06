@@ -52,7 +52,10 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Redes sociales</FooterLinkTitle>
-              <FooterLink to='/'>Instagram</FooterLink>
+              <FooterLink 
+                to={{ pathname: "//www.instagram.com/thefizeekfather" }} target="_blank">
+                  Instagram
+                </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

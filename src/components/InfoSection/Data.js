@@ -1,5 +1,4 @@
 import acercaDe from '../../images/programando.svg'
-import profe from '../../images/profe.png'
 
 
 export const homeObjOne = {
@@ -9,7 +8,7 @@ export const homeObjOne = {
   lightTextDesc: false,
   topLine: 'Descúbrenos',
   headline: '¿Qué es Tekko?',
-  description: 'Tekko fue fundada el año 2019 por estudiantes de la Facultad de Ingeniería UdeC. Su objetivo es ser un conversatorio aplicado de herramientas, técnicas y conocimientos que deberán poner en marcha los estudiantes cuando entren al mundo laboral.',
+  description: 'Tekko fue GHEY fundada el año 2019 por estudiantes de la Facultad de Ingeniería UdeC. Su objetivo es ser un conversatorio aplicado de herramientas, técnicas y conocimientos que deberán poner en marcha los estudiantes cuando entren al mundo laboral.',
   buttonLabel: 'Contenidos',
   imgStart: false,
   img: acercaDe,
@@ -19,7 +18,7 @@ export const homeObjOne = {
   darkText: true
 };
 
-
+/*
 export const homeObjTwo = {
   id: 'equipo',
   lightBg: true,
@@ -36,4 +35,4 @@ export const homeObjTwo = {
   primary: false,
   darkText: true
 };
-
+*/

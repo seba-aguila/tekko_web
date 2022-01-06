@@ -3,7 +3,9 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
-import { homeObjOne, homeObjTwo } from "../components/InfoSection/Data";
+import InfoSectionProfe from "../components/InfoSectionProfe";
+import { homeObjOne } from "../components/InfoSection/Data";
+import { homeObj} from "../components/InfoSectionProfe/Data";
 import Contents from "../components/Contents";
 import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
@@ -23,7 +25,7 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne}/>
       <Contents />
-      <InfoSection {...homeObjTwo}/> */
+      <InfoSectionProfe {...homeObj}/>
       <Carousel slides={SliderData}/>
       <Footer />
     </>

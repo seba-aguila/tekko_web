@@ -40,13 +40,19 @@ export const Slider = styled.section`
   align-items: center;
 `;
 
-export const Image = styled.img`
+export const Img = styled.div`
   width: 250px;
   height: 250px;
-  border-radius: 125px;
+  overflow: hidden;
+  border-radius: 50%;
   margin-bottom: 20px;
   margin-left: 100px;
   margin-right: 100px;
+`;
+
+export const Image = styled.img`
+  width: 100%;
+  height: auto;
 `;
 
 export const LeftArrow = styled.a`
@@ -55,9 +61,13 @@ export const LeftArrow = styled.a`
   left: 0;
   font-size: 3rem;
   color: #fff;
-  z-index: 10;
+  z-index: 1;
   cursor: pointer;
   user-select: none;
+
+  &:hover{
+    color: #7cc0f9;
+  }
 `;
 
 export const RightArrow = styled.a`
@@ -66,9 +76,13 @@ export const RightArrow = styled.a`
   right: 0px;
   font-size: 3rem;
   color: #fff;
-  z-index: 10;
+  z-index: 1;
   cursor: pointer;
   user-select: none;
+
+  &:hover{
+    color: #7cc0f9;
+  }
 `;
 
 export const Slide = styled.div`
